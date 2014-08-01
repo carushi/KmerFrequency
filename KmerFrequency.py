@@ -4,8 +4,8 @@ import numpy as np
 
 class BaseAnn(object):
 	"""Calculate GC contents and Kmer frequency"""	
-	"""Encoded by 4 types of DNA base and 8 types of genome annotation"""
-	"""Assume that DNA is expressed by characters of seq"""
+	"""A sequence is assumed to be encoded by 4 types of DNA base and 8 types of genome annotation"""
+	"""and expressed by characters of seq"""
 	"""(pos%4 -> ACGT, pos/4 -> each annotation)"""
 	"""Ignore Ns"""	
 
